@@ -20,4 +20,4 @@ output = subprocess.getoutput(command)
 
 lista_zip = output.split('\n')
 print(lista_zip)
-# os.system('net use z: \\\\192.9.200.60\\w\\Procesos\\Informes\\SCK "jS&crgkfi6pRu@" /user:bot_RPA')
+# os.system('net use {0} {1} "{2}" /user:{3}'.format(conexion, ruta_acceso, pass_acceso, user_acceso))
